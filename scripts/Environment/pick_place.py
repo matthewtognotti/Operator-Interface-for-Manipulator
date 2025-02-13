@@ -11,7 +11,7 @@ import pickle
 '''
     File: pick_place.py
 
-    Pick up object in the environment for the work/school scenario
+    Pick and place objects in the environment
     
 '''
 

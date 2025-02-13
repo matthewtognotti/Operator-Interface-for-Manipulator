@@ -1,4 +1,6 @@
-# Franka Emika Panda 🐼
+# Operator Interface for Franka Emika Panda 🐼
+
+### Find the following in this repository:
 
 ## Teleop
 
@@ -9,7 +11,7 @@
 - Pick and place objects using the Franka Emika Panda with the MoveIt Python interface. 
 
 
-## Record
+## Replay
 
 #### CSV (for plotting trajectories)
 

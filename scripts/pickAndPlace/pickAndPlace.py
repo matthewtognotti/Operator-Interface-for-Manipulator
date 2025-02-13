@@ -43,7 +43,6 @@ class movePanda():
         box_name = name
         self.scene.add_box(box_name, box_pose, size=size)
     
-    # go to a certain pose
     def goToPose(self, x_pos=0.4, y_pos=0.1, z_pos=0.4, roll=0.0, pitch=0.0, yaw=0.0):
 
         quaternion = quaternion_from_euler(roll, pitch, yaw)
@@ -61,7 +60,7 @@ class movePanda():
 
         self.group.set_pose_target(pose_goal)
 
-        # Now, we call the planner to compute the plan and execute it.
+        # Call the planner to compute the plan and execute it.
         self.group.go(wait=True)
         self.group.stop()
         self.group.clear_pose_targets()

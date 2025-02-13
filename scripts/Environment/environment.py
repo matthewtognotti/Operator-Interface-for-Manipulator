@@ -7,14 +7,7 @@ import geometry_msgs.msg
 '''
     File: envoronment.py
 
-    Set up the environment for the work/school scenario
-
-    Objects:
-        - Robot base
-        - Pick table
-        - Place table
-        - Two mats
-        - Objects on mats 
+    Set up the environment for the robot scenario
     
 '''
 
